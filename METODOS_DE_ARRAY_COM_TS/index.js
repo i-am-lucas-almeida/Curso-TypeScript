@@ -41,7 +41,7 @@ data.forEach((i) => {
         Salário: R$${i.salary} /
         Pode dirigir: ${i.driverLicense === true ? '✅' : '❌'}
     `;
-    lista === null || lista === void 0 ? void 0 : lista.appendChild(el);
+    lista?.appendChild(el);
 });
 data.map((user) => user.newsLetter = false);
 console.log(data);

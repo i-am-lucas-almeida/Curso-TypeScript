@@ -54,10 +54,10 @@ console.log(data[lowerSalary]);
 
 //==> INCLUDES
 
-const numbers: number[] = [1, 2, 3, 4, 5];
+const numbersA: number[] = [1, 2, 3, 4, 5];
 
-console.log(numbers.includes(6));
-console.log(numbers.includes(2));
+console.log(numbersA.includes(6));
+console.log(numbersA.includes(2));
 
 //==> FOREACH
 
