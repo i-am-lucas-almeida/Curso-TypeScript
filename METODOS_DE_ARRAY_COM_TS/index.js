@@ -28,9 +28,9 @@ console.log(lowerSalary, data[lowerSalary]);
 data[lowerSalary].salary += 500;
 console.log(data[lowerSalary]);
 //==> INCLUDES
-const numbers = [1, 2, 3, 4, 5];
-console.log(numbers.includes(6));
-console.log(numbers.includes(2));
+const numbersA = [1, 2, 3, 4, 5];
+console.log(numbersA.includes(6));
+console.log(numbersA.includes(2));
 //==> FOREACH
 const lista = document.getElementById('lista');
 data.forEach((i) => {
